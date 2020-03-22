@@ -15,7 +15,7 @@ train_images, train_labels = shuffle(np.array(train_images), np.array(train_labe
 test_images, test_labels = shuffle(np.array(test_images), np.array(test_labels))
 remaining_images, remaining_labels = shuffle(np.array(remaining_images), np.array(remaining_labels))
 
-# In order to save dataset to pickle
+# In order to save dataset with pickle
 '''
 listNames = ['train_images', 'train_labels', 'test_images', 'test_labels', 'remaining_images', 'remaining_labels']
 for i in listNames:
